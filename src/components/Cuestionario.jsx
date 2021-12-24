@@ -3,7 +3,7 @@ import CorrectoIncorrecto from './CorrectoIncorrecto';
 import Retiro from './Retiro';
 import Lista from '../preguntas.json'
 
-export default function Cuestionario() {
+export default function Cuestionario({nombre}) {
 
     const [fase, setFase] = useState(0);
     const [aleatoreo, setAleatoreo] = useState(0);
@@ -56,7 +56,7 @@ export default function Cuestionario() {
                             </div>
                         ) : (
                             <div>
-                                <h1>¡Correcto! Haz superado el desafío</h1>
+                                <h1>Felicidades {nombre}! Haz superado el desafío</h1>
                                 <h2>Tu puntuación es: {score}</h2>
                                 <h2>te llevas el premio mayor de {score} mil pesos</h2>
                             </div>
