@@ -1,0 +1,435 @@
+{
+  "Preguntas": [
+    [
+      {
+        "pregunta": "¿Qué entendemos como lenguaje de programación?",
+        "opciones": [
+          {
+            "opcion": "Una manera de comunicarse con el hardware",
+            "flag": false,
+            "id": "A"
+          },
+          {
+            "opcion": "Una forma de diseñar código para la máquina",
+            "flag": false,
+            "id": "B"
+          },
+          {
+            "opcion": "Lo relacionado con la codificación de páginas web y sitios interactivo",
+            "flag": false,
+            "id": "C"
+          },
+          {
+            "opcion": "Una manera definida para escribir instrucciones claras para programar aplicaciones de alto nivel",
+            "flag": true,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "¿Qué es una variable?",
+        "opciones": [
+          {
+            "opcion": "Es un método de acceso a los datos",
+            "flag": false,
+            "id": "A"
+          },
+          {
+            "opcion": "Es un mecanismo para consultar información",
+            "flag": false,
+            "id": "B"
+          },
+          {
+            "opcion": "Es un elemento del programa que puede cambiar",
+            "flag": false,
+            "id": "C"
+          },
+          {
+            "opcion": "Es una declaración dentro del programa para definir un valor dinámico",
+            "flag": true,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "Un ciclo de control es...",
+        "opciones": [
+          {
+            "opcion": "Control para toma de decisiones de cómputo (if, else, switch, etcétera)",
+            "flag": true,
+            "id": "A"
+          },
+          {
+            "opcion": "Interacciones para la gestión del flujo de trabajo",
+            "flag": false,
+            "id": "B"
+          },
+          {
+            "opcion": "Condicionales y preguntar para tomar decisiones",
+            "flag": false,
+            "id": "C"
+          },
+          {
+            "opcion": "Todo lo relacionado con flujos de intercambios lógicos",
+            "flag": false,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "¿Qué es una base de datos?",
+        "opciones": [
+          {
+            "opcion": "Es un servidor que permite persistir información o datos concretos",
+            "flag": true,
+            "id": "A"
+          },
+          {
+            "opcion": "Es un grupo de datos efímeros",
+            "flag": false,
+            "id": "B"
+          },
+          {
+            "opcion": "Es una colección de datos o información concreta",
+            "flag": true,
+            "id": "C"
+          },
+          { "opcion": "Un repositorio de datos", "flag": false, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": "¿Qué lenguaje de etiquetas se usa en un navegador?",
+        "opciones": [
+          { "opcion": "Java", "flag": false, "id": "A" },
+          { "opcion": "JavaScript", "flag": false, "id": "B" },
+          { "opcion": "Python", "flag": false, "id": "C" },
+          { "opcion": "HTML", "flag": true, "id": "D" }
+        ]
+      }
+    ],
+    [
+      {
+        "pregunta": "El servidor es un proveedor de información y el cliente es un consumidor de información, nos referimos a... ",
+        "opciones": [
+          { "opcion": "Cliente-Servidor", "flag": true, "id": "A" },
+          { "opcion": "Servidor-Servidor", "flag": false, "id": "B" },
+          { "opcion": "Servidor-Cliente", "flag": false, "id": "C" },
+          { "opcion": "Servidor", "flag": false, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": "Dentro de las bases de la programación tenemos los siguientes paradigmas: ",
+        "opciones": [
+          {
+            "opcion": "Programación orientada a objetos",
+            "flag": false,
+            "id": "A"
+          },
+          {
+            "opcion": "Programación orientada a clases",
+            "flag": true,
+            "id": "B"
+          },
+          {
+            "opcion": "Programación orientada a atributos",
+            "flag": false,
+            "id": "C"
+          },
+          { "opcion": "Programación funcional", "flag": false, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": "Uno de los motores de bases de datos más conocidos es...",
+        "opciones": [
+          { "opcion": "MySQL", "flag": true, "id": "A" },
+          { "opcion": "Excel", "flag": false, "id": "B" },
+          { "opcion": "VBasic", "flag": false, "id": "C" },
+          { "opcion": "DataStorage", "flag": false, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": "Los sistemas operativos que son libres y que están basados en Unix son:",
+        "opciones": [
+          { "opcion": "Ubuntu", "flag": false, "id": "A" },
+          { "opcion": "Mac", "flag": false, "id": "B" },
+          { "opcion": "Debian", "flag": true, "id": "C" },
+          { "opcion": "Windows", "flag": false, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": "Una etiqueta HTML que se usa para mostrar un título resaltado en negrilla: ",
+        "opciones": [
+          { "opcion": "<TITLE></TITLE>", "flag": false, "id": "A" },
+          { "opcion": "<H3></H3>", "flag": true, "id": "B" },
+          { "opcion": "<B></B>", "flag": false, "id": "C" },
+          { "opcion": "<TH></TH>", "flag": false, "id": "D" }
+        ]
+      }
+    ],
+    [
+      {
+        "pregunta": "Una consulta para ejecutar todos los datos de una tabla llamada PERSONA, tiene la siguiente estructura:",
+        "opciones": [
+          { "opcion": "SELECT * FROM PERSONA", "flag": true, "id": "A" },
+          { "opcion": "SELECT FROM PERSONA", "flag": false, "id": "B" },
+          { "opcion": "SELECT ALL FROM PERSONA", "flag": false, "id": "C" },
+          { "opcion": "SELECT PERSONAS", "flag": false, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": " Si quiero iterar o recorrer una colección de objetos, ¿qué puedo usar?",
+        "opciones": [
+          { "opcion": "do-while", "flag": false, "id": "A" },
+          { "opcion": "for", "flag": false, "id": "B" },
+          { "opcion": "if-else", "flag": false, "id": "C" },
+          { "opcion": "foreach", "flag": true, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": "Para evaluar una expresión booleana utilizo un...",
+        "opciones": [
+          { "opcion": "for", "flag": false, "id": "A" },
+          { "opcion": "else", "flag": false, "id": "B" },
+          { "opcion": "while", "flag": false, "id": "C" },
+          { "opcion": "if", "flag": true, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": "¿Qué podemos decir de un método que tiene una asignación a una variable global de clase?",
+        "opciones": [
+          {
+            "opcion": "Es un método dentro de un objeto de clase",
+            "flag": false,
+            "id": "A"
+          },
+          {
+            "opcion": "Es un método que tiene un efecto secundario que incrementa un valor global",
+            "flag": true,
+            "id": "B"
+          },
+          {
+            "opcion": "Determina el ganador del juego, ya sea el jugador 1 o el 2",
+            "flag": false,
+            "id": "C"
+          },
+          {
+            "opcion": "Es una función para determinar un resultado",
+            "flag": false,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "Una clase es...",
+        "opciones": [
+          {
+            "opcion": "Un tipo determinado para crear objetos de ese mismo tipo",
+            "flag": true,
+            "id": "A"
+          },
+          {
+            "opcion": "Es una categoría del mismo tipo",
+            "flag": false,
+            "id": "B"
+          },
+          {
+            "opcion": "Son varios objetos heredados",
+            "flag": false,
+            "id": "B"
+          },
+          { "opcion": "Ninguna de las anteriores", "flag": false, "id": "D" }
+        ]
+      }
+    ],
+    [
+      {
+        "pregunta": "var plan = customer == null ? plan.basico():customer.plan(); ¿Qué pasaría si el customer no existe?",
+        "opciones": [
+          { "opcion": "El plan no se puede definir", "flag": false, "id": "A" },
+          { "opcion": "El plan es el básico", "flag": true, "id": "B" },
+          { "opcion": "Saca un error en el código", "flag": false, "id": "C" },
+          {
+            "opcion": "El plan es según el consumidor",
+            "flag": false,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "Cuando hablamos de tablas en el contexto de base de datos nos referimos a... ",
+        "opciones": [
+          {
+            "opcion": "Unidades de persistencias de datos",
+            "flag": true,
+            "id": "A"
+          },
+          {
+            "opcion": "Unidades constituidas por filas y columnas",
+            "flag": false,
+            "id": "B"
+          },
+          { "opcion": "Almacenamiento de celdas", "flag": false, "id": "C" },
+          {
+            "opcion": "Unidades donde se almacena un dato",
+            "flag": false,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "¿Qué elementos crees que definen a un objeto?",
+        "opciones": [
+          { "opcion": "Sus cardinalidad y su tipo", "flag": false, "id": "A" },
+          { "opcion": "Sus atributos y sus métodos", "flag": true, "id": "B" },
+          {
+            "opcion": "La forma en que establece comunicación e intercambia mensajes",
+            "flag": false,
+            "id": "C"
+          },
+          {
+            "opcion": "Su interfaz y los eventos asociados",
+            "flag": false,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "¿Qué código de los siguientes tiene que ver con la herencia?",
+        "opciones": [
+          {
+            "opcion": "public class Componente inherit Producto",
+            "flag": false,
+            "id": "A"
+          },
+          {
+            "opcion": "public class Componente extends Producto",
+            "flag": true,
+            "id": "B"
+          },
+          {
+            "opcion": "public class Componente implements Producto",
+            "flag": false,
+            "id": "C"
+          },
+          {
+            "opcion": "public class Componente belong to Producto",
+            "flag": false,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "¿Qué significa instanciar una clase?",
+        "opciones": [
+          { "opcion": "Duplicar una clase", "flag": false, "id": "A" },
+          { "opcion": "Eliminar una clase", "flag": false, "id": "B" },
+          {
+            "opcion": "Crear un objeto a partir de la clase",
+            "flag": true,
+            "id": "C"
+          },
+          { "opcion": "Conectar dos clases entre sí", "flag": false, "id": "D" }
+        ]
+      }
+    ],
+    [
+      {
+        "pregunta": "La técnica de desarrollo mediante refinamientos sucesivos consiste en:",
+        "opciones": [
+          {
+            "opcion": "Descomponer acciones en otras más simples en pasos sucesivos",
+            "flag": true,
+            "id": "A"
+          },
+          {
+            "opcion": "Depurar los errores del código en pasos sucesivos",
+            "flag": false,
+            "id": "B"
+          },
+          {
+            "opcion": "Reducir el tiempo de compilación de un programa en pasos sucesivos",
+            "flag": false,
+            "id": "C"
+          },
+          {
+            "opcion": "Reducir el tiempo de ejecución de un programa en pasos sucesivos",
+            "flag": false,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "Reducir el tiempo de ejecución de un programa en pasos sucesivos",
+        "opciones": [
+          { "opcion": "Secuencia", "flag": false, "id": "A" },
+          { "opcion": "Iteración", "flag": true, "id": "B" },
+          { "opcion": "Selección", "flag": false, "id": "C" },
+          { "opcion": "Tupla", "flag": false, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": "¿Qué características tienen los elementos locales?",
+        "opciones": [
+          {
+            "opcion": "Son visibles en su ámbito y fuera",
+            "flag": false,
+            "id": "A"
+          },
+          {
+            "opcion": "Son invisibles en su ámbito y fuera",
+            "flag": false,
+            "id": "B"
+          },
+          {
+            "opcion": "Son invisibles en su ámbito y visibles fuera",
+            "flag": false,
+            "id": "C"
+          },
+          {
+            "opcion": "Son visibles en su ámbito e invisibles fuera",
+            "flag": true,
+            "id": "D"
+          }
+        ]
+      },
+      {
+        "pregunta": "El modelo de programación lógica:",
+        "opciones": [
+          {
+            "opcion": "Imita la arquitectura de Von Newmann",
+            "flag": false,
+            "id": "A"
+          },
+          {
+            "opcion": "Se basa en el uso de funciones",
+            "flag": false,
+            "id": "B"
+          },
+          {
+            "opcion": "Se basa en la declaración de hechos y reglas",
+            "flag": true,
+            "id": "C"
+          },
+          { "opcion": "Es el que utiliza C/C++", "flag": false, "id": "D" }
+        ]
+      },
+      {
+        "pregunta": "Dadas las variables A y B de tipo vector de tres elementos, si queremos copiar todos los elementos de A en B, en C/C++ escribimos:",
+        "opciones": [
+          { "opcion": "B=A;", "flag": false, "id": "A" },
+          {
+            "opcion": "for(int i=1; i<=3; i++){ B[ i ] = A[ i ]; }",
+            "flag": false,
+            "id": "B"
+          },
+          { "opcion": "A=B;", "flag": false, "id": "V" },
+          {
+            "opcion": "for(int i=0; i<3; i++){ B[ i ] = A[ i ]; }",
+            "flag": true,
+            "id": "D"
+          }
+        ]
+      }
+    ]
+  ]
+}
